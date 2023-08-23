@@ -53,6 +53,15 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 100vh;
+}
+
+.link-footer {
+    color: #176b3a;
+    font-weight: bold;
 }
 
 
@@ -73,6 +82,15 @@ button {
 
 button:hover {
     background-color: #2ecc71;
+}
+
+footer button:hover {
+    background-color: #186e3c;
+}
+
+footer button a {
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 767px) {
