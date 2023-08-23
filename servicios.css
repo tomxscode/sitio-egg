@@ -1,0 +1,70 @@
+main {
+    width: 80%;
+    margin: auto;
+    padding: 12px 0;
+}
+
+body {
+    background-color: #bdc3c7;
+}
+
+#nuestros-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuestros-servicios .listaServicios {
+    width: 100%;
+}
+
+#nuestros-servicios .listaServicios ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+    text-align: center;
+}
+
+#nuestros-servicios .listaServicios ul li{
+    background-color: #ecf0f1;
+    padding: 12px 6px;
+    border-radius: 8px;
+}
+
+#nuestros-servicios .listaServicios ul li h2 {
+    font-size: 16pt;
+}
+
+button {
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-size: 12pt;
+    background-color: #27ae60;
+    color: #ecf0f1;
+    font-weight: bold;
+    border-radius: 10px;
+
+    transition: .3s ease-in;
+}
+
+button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    #nuestros-servicios .listaServicios ul {
+        flex-direction: column;
+    }
+
+    #nuestros-servicios .listaServicios ul li:not(:last-of-type) {
+        margin-bottom: 12px;
+    }
+}

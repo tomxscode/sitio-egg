@@ -1,0 +1,22 @@
+main {
+    background-color: red;
+    height: 100vh;
+    background-image: url('./src/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+}
+
+#informacion-principal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.719);
+    border-radius: 20px;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#informacion-principal .contenido {
+    margin-top: 12px;
+}

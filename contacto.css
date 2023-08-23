@@ -1,0 +1,39 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .tituloForm {
+    margin: 12px 0;
+}
+
+.input-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-formulario:not(:last-of-type) {
+    margin-bottom: 12px;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 12px 6px;
+    font-size: 12pt;
+    border: #2c3e50 1px solid;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
