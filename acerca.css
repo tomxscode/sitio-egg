@@ -34,3 +34,9 @@ main {
     text-align: center;
     margin: 12px 0 32px 0;
 }
+
+@media (max-width: 767px) {
+    #imagenes {
+        flex-direction: column;
+    }
+}

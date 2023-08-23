@@ -1,6 +1,6 @@
 main {
     background-color: red;
-    height: 100vh;
+    min-height: 100%;
     background-image: url('./src/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
