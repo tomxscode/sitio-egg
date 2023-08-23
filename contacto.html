@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,18 @@
     <link rel="stylesheet" href="contacto.css">
     <title>Contacto</title>
 </head>
+
 <body>
-    
+
     <header>
         <div class="titulo">
             <h1>Mi sitio web</h1>
         </div>
         <nav>
-            <ul>
+            <div class="btnArea">
+                <button id="abrirNav" class="btnVerdeOscuro">Abrir navegación</button>
+            </div>
+            <ul id="navegacion">
                 <li>
                     <a href="index.html">Inicio</a>
                 </li>
@@ -28,6 +33,7 @@
                     <a href="acerca.html">Acerca de</a>
                 </li>
             </ul>
+            <button id="cerrarNav" class="btnRojo">Cerrar navegación</button>
         </nav>
     </header>
 
@@ -65,9 +71,11 @@
     </main>
 
     <footer>
-        <p>Sitio hecho con mucho amor por @todos, repositorio: <a class="link-footer" href="https://github.com/tomxscode/sitio-egg">tomxscode/sitio-egg</a></p>
+        <p>Sitio hecho con mucho amor por @todos, repositorio: <a class="link-footer"
+                href="https://github.com/tomxscode/sitio-egg">tomxscode/sitio-egg</a></p>
         <button> <a href="contacto.html">Contactanos</a></button>
     </footer>
-
+    <script src="navegacion.js"></script>
 </body>
+
 </html>

@@ -101,9 +101,42 @@ footer button a {
     text-decoration: none;
 }
 
+#abrirNav, #cerrarNav {
+    display: none;
+}
+
+.btnArea {
+    margin-bottom: 20px;
+}
+
+.btnVerdeOscuro {
+    background-color: #186e3c;
+}
+
+.btnRojo {
+    background-color: #c0392b;
+}
+
 @media (max-width: 767px) {
+    #abrirNav {
+        display: block;
+    }
+
     header {
         flex-direction: column;
+    }
+
+    #navegacion {
+        display: none;
+    }
+
+    header nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav ul li:not(:last-of-type) {
+        margin-bottom: 20px;
     }
 
     header nav {
