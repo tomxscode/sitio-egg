@@ -1,6 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Añadido para eliminar el margen predeterminado */
+}
+
 main {
+    flex: 1;
+    display: flex; /* Añadido para alinear contenido */
+    align-items: center; /* Añadido para centrar contenido verticalmente */
     background-color: red;
-    min-height: 100%;
     background-image: url('./src/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,6 +24,9 @@ main {
     color: white;
     padding: 20px 20px;
     text-align: center;
+    flex: 1; /* Hace que el contenedor ocupe todo el espacio disponible */
+    justify-content: center; /* Añadido para centrar contenido verticalmente */
+    align-items: center; /* Añadido para centrar contenido horizontalmente */
 }
 
 #informacion-principal .contenido {

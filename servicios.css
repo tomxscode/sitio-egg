@@ -116,6 +116,79 @@ button:hover {
 }
 
 
+/* Tu código de estilos existente */
+
+#nuestros-servicios {
+    text-align: center; /* Centrar el contenido */
+    padding: 40px 0; /* Agregar más espacio alrededor del contenido */
+}
+
+#nuestros-servicios h1 {
+    margin-bottom: 20px; /* Añadir margen inferior al título */
+}
+
+#nuestros-servicios .listaServicios ul {
+    display: grid; /* Usar un grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Columnas flexibles */
+    gap: 20px; /* Espacio entre las tarjetas de servicios */
+    list-style-type: none;
+}
+
+#nuestros-servicios .listaServicios ul li {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Centrar el contenido de cada servicio */
+}
+
+#nuestros-servicios .listaServicios ul li h2 {
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+    margin-bottom: 10px; /* Agregar margen inferior al título */
+}
+
+#nuestros-servicios .listaServicios ul li p {
+    font-size: 14px; /* Ajustar el tamaño de la fuente para la descripción */
+    margin-bottom: 12px; /* Agregar margen inferior a la descripción */
+}
+
+/* Resto de tus estilos */
+
+.imagenesGaleria {
+    margin: 40px 0; /* Aumentar el margen para separar de la sección anterior */
+    background-color: #ecf0f1;
+    padding: 20px 16px; /* Ajustar el padding para un mejor aspecto */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en filas */
+    justify-content: space-between; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.galeria img {
+    width: 150px; /* Ajustar el tamaño de las imágenes */
+    height: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#video {
+    margin: 40px 0; /* Aumentar el margen para separar de la sección anterior */
+    text-align: center;
+}
+
+#video iframe {
+    max-width: 100%; /* Asegurarse de que el video se ajuste al ancho del contenedor */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agregar sombra al video */
+}
+
+
+
 @media (max-width: 768px) {
     #nuestros-servicios .listaServicios ul {
         flex-direction: column;
